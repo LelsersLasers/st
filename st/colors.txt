@@ -1,0 +1,28 @@
+static const char *colorname[] = {
+	/* 8 normal colors */
+	"#3f3f3f", //off grey
+    "#dc8cc3", //pink (dark)
+	"#60b48a", //the bright green
+	"#dfaf8f", //yellow-y orange
+    "#8cd0d3", //teal
+	"#705050", //some odd brown
+	"#506070", //blue-ish grey
+	"#dcdccc", //yellow-y white
+
+	/* 8 bright colors */
+	"#709080", //dark green
+    "#ec93d3", //pink (light)
+	"#c3bf9f", //darker yellow-y hite
+	"#f0dfaf", //yellow-ish
+	"#94bff3", //light blue
+	"#dca3a3", //light red-y pink
+	"#93e0e3", //light teal
+	"#ffffff", //white
+
+	[255] = 0,
+
+	/* more colors can be added after 255 to use with DefaultXX */
+	"#cccccc",
+	"#555555",
+	"#3f3f3f",
+};
